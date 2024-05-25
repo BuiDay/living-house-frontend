@@ -13,7 +13,7 @@ const Page = () => {
                             <div className='m-0 margin-medium'>
                                 <Navbar className='muted' />
                             </div>
-                            <h1 className='heading-style-medium text-style-allcaps'>Liên hệ</h1>
+                            <h1 className='heading-style-medium text-style-allcaps fo'>Liên hệ</h1>
                         </div>
                         <div className="form-wrapper w-form">
                             <form action="">
@@ -45,19 +45,19 @@ const Page = () => {
                                     <textarea className="form-input is-text-area w-input" name="Message-2" data-name="Message 2" placeholder="Your Message" id="Message-2" />
                                 </div>
                                 <div className="contact-form-button-wrapper">
-                                    <input type="submit" data-wait="Please wait..." className="button primary w-button" value="Send Message" />
+                                    <input type="submit" data-wait="Please wait..." className="button primary w-button" value="Gửi" />
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div className='contact-grid-right'>
+                    {/* <div className='contact-grid-right'>
                         <div className='w-full h-full flex items-center'>
                             <div className='mt-[50px]'>
                                 <h2 className='text-center text-[24px]'>Quy trình làm việc</h2>
                                 <Image src={Image_1} alt='' className='contact-grid-right-image'></Image>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
