@@ -12,13 +12,13 @@ const Header: React.FC<IProps> = ({ className }) => {
     return (
         <div className={`navbar ${className}`}>
             <div className='max-w-[100px]'>
-                <Image src={Logo} alt='' />
+                <Link href={'/'}><Image src={Logo} alt=''/></Link>
             </div>
-            <div className='flex gap-7 ml-[50px] text-[14px]'>
-                <Link href="/" className='uppercase font-semibold'>Home</Link>
-                <Link href="/projects" className='uppercase font-semibold'>Projects</Link>
-                <Link href="/about-us" className='uppercase font-semibold'>About</Link>
-                <Link href="/" className='uppercase font-semibold'>Contact</Link>
+            <div className='flex gap-7 ml-[20px] text-[14px]'>
+                <Link href="/" className='uppercase font-semibold'>Trang chủ</Link>
+                <Link href="/projects" className='uppercase font-semibold'>Các dự án</Link>
+                <Link href="/about-us" className='uppercase font-semibold'>Về chúng tôi</Link>
+                <Link href="/contact" className='uppercase font-semibold'>Liên hệ</Link>
             </div>
             <div className='navbar-toggle w-dropdown'>
                 <div className='navbar-toggle w-dropdown-toggle h-[40px] w-[40px] bg-[#920d10] rounded-md'>

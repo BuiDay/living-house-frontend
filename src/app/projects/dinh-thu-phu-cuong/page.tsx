@@ -6,11 +6,13 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react';
 import Image from 'next/image';
-import Image_1 from '@/assets/images/1.jpg'
-import Image_2 from '@/assets/images/2.jpg'
-import Image_3 from '@/assets/images/3.jpg'
-import Image_4 from '@/assets/images/4.jpg'
-import Image_5 from '@/assets/images/5.jpg'
+import Image_1 from '@/assets/images/dinh-thu-phu-cuong/1.jpg'
+import Image_2 from '@/assets/images/dinh-thu-phu-cuong/2.jpg'
+import Image_3 from '@/assets/images/dinh-thu-phu-cuong/3.jpg'
+import Image_4 from '@/assets/images/dinh-thu-phu-cuong/4.jpg'
+import Image_5 from '@/assets/images/dinh-thu-phu-cuong/5.jpg'
+import Image_6 from '@/assets/images/dinh-thu-phu-cuong/6.jpg'
+import Footer from '@/app/components/Layout/Footer/Footer';
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
@@ -21,13 +23,13 @@ const Page = () => {
         () => {
             let sections = gsap.utils.toArray(".slide");
             gsap.to(sections, {
-                xPercent: -100 * (sections.length - 1),
+                xPercent: -86 * (sections.length - 1),
                 scrollTrigger: {
                     trigger: ".horizontal-sliders",
                     pin: ".main",
                     pinSpacing: true,
                     scrub: 1,
-                    end: "+=1000",
+                    end: "+=2000",
                 }
             });
         },
@@ -42,14 +44,14 @@ const Page = () => {
                             <div className='margin-bottom margin-medium'>
                                 <Navbar className='muted' />
                             </div>
-                            <div className='max-width-medium'>
-                                <h1>The Escape</h1>
+                            <div className='max-width-medium py-5'>
+                                <h1 className="text-[60px] mt-10 font-medium">Dinh Thự Phú Cường</h1>
                             </div>
                         </div>
                         <div>
                             <div className='margin-bottom margin-medium'>
                                 <div className='max-width-medium'>
-                                    Discover tranquility reimagined. &rdquo;The Escape&rdquo; harmonizes modern design with nature, crafting a retreat that rejuvenates and inspires.
+                                    Thi công nội thất Dinh Thự Phú Cường 
                                 </div>
                             </div>
                         </div>
@@ -60,23 +62,23 @@ const Page = () => {
                         <div className='project-about-card'>
                             <div>
                                 <div className='margin-bottom margin-xxsmall'>
-                                    <div className="text-meta text-color-muted">Location</div>
+                                    <div className="text-meta text-color-muted">Địa điểm</div>
                                 </div>
-                                <div className="text-size-small">Lisbon</div>
+                                <div className="text-size-small">Thủ Dầu Một, Bình Dương</div>
                             </div>
                             <div className="line-vertical hide-mobile-portrait"></div>
                             <div>
                                 <div className="margin-bottom margin-xxsmall">
-                                    <div className="text-meta text-color-muted">Completion</div>
+                                    <div className="text-meta text-color-muted">Hoàn thành</div>
                                 </div>
                                 <div className="text-size-small">2023</div>
                             </div>
                             <div className="line-vertical hide-mobile-portrait"></div>
                             <div>
                                 <div className="margin-bottom margin-xxsmall">
-                                    <div className="text-meta text-color-muted">Completion</div>
+                                    <div className="text-meta text-color-muted">Quá trình</div>
                                 </div>
-                                <div className="text-size-small">2023</div>
+                                <div className="text-size-small">2 năm</div>
                             </div>
                             <div className="card-sticky-corner-top-right top hide-mobile-landscape w-embed">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,17 +102,29 @@ const Page = () => {
                 </section>
                 <section className="slide section-project-about">
                     <div className='project-about-image-wrapper'>
-                        
-                        <Image src={Image_3} alt='' className='image-cover'></Image>
+                        <Image src={Image_3} alt='' className='image-cover object-bottom'></Image>
                     </div>
                 </section>
                 <section className="slide section-project-about">
                     <div className='project-about-image-wrapper'>
-                       
                         <Image src={Image_4} alt='' className='image-cover'></Image>
                     </div>
                 </section>
-                
+                <section className="slide section-project-about">
+                    <div className='project-about-image-wrapper'>
+                        <Image src={Image_5} alt='' className='image-cover'></Image>
+                    </div>
+                </section>
+                <section className="slide section-project-about">
+                    <div className='project-about-image-wrapper'>
+                        <Image src={Image_6} alt='' className='image-cover'></Image>
+                    </div>
+                </section>
+                <section className="slide section-project-about">          
+                    <div className='project-about-image-wrapper'>
+                        <Footer className='!mt-0'/>
+                    </div>
+                </section>
             </div>
         </main>
     );

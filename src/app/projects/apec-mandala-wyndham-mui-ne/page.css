@@ -16,12 +16,13 @@
 
 .project-about-image-wrapper {
     border-radius: 2.5rem 2.5rem;
-    width: 100vw;
-    min-width:1000px;
+    width: 50vw;
+    min-width:100px;
+    height: 100%;
     margin-bottom: 3rem;
     position: relative;
     overflow: hidden;
-    transform: translate(-1000px);
+    margin-right: 50px;
 }
 
 .project-hero-inner {
@@ -29,11 +30,12 @@
     justify-content: space-between;
     align-self: stretch;
     align-items: flex-start;
-    min-width: 100vw;
+    min-width: 40vw;
     display: flex;
 }
 
-.project-about-content, .section-project-hero {
+.project-about-content, 
+.section-project-hero {
     grid-column-gap: 6rem;
     grid-row-gap: 6rem;
     flex-direction: row;
@@ -50,6 +52,7 @@
 
 .section-project-about {
     display: flex;
+    padding: 50px 0;
 }
 
 .project-about-card {

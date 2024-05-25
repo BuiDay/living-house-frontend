@@ -2,14 +2,18 @@ import React from 'react';
 import './Footer.css'
 import Link from 'next/link';
 
-const Footer = () => {
+interface IProps{
+    className?:string,
+}
+
+const Footer:React.FC<IProps> = ({className}) => {
     return (
-        <footer className='footer-vertical'>
+        <footer className={`footer-vertical w-full h-full ${className}`}>
             <div className='container'>
                 <div className='footer-vertical-inner'>
                     <div className='footer-vertical-top text-center'>
                         <h2 className='text-[38px] mb-5 font-semibold'>ĐỊNH HÌNH KHÔNG GIAN MƠ ƯỚC CỦA BẠN!</h2>
-                        <Link href='contact-us' className='button font-semibold inverse-primary w-inline-block'>Hãy kết nối</Link>
+                        <Link href='/contact' className='button font-semibold inverse-primary w-inline-block'>Hãy kết nối chúng tôi</Link>
                     </div>
                     <div className='footer-vertical-bottom'>
                         <div className='footer-vertical-bottom-nav'>

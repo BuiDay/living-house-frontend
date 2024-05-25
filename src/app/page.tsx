@@ -13,6 +13,11 @@ import Icon7 from '@/assets/icon/7.png'
 import Marquee from "react-fast-marquee";
 import Footer from "./components/Layout/Footer/Footer";
 
+
+import Image2 from '@/assets/images/the-grace-tower/1.jpg'
+import Image3 from '@/assets/images/san-khau-kich-hong-van/1.jpg'
+import Image4 from '@/assets/images/eastin-grand/1.jpg'
+
 export default function Home() {
   return (
     <>
@@ -103,8 +108,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="m-[1rem] flex flex-col gap-5 text-justify">
-                  <p className="text-[16px] font-medium">Tại Living House, chúng tôi kết hợp giữa tính sáng tạo và ý thức sinh thái để định hình lại cuộc sống hiện đại. Với niềm đam mê thiết kế bền vững, chúng tôi tạo ra những môi trường có chức năng và thẩm mỹ phù hợp với thử thách của thời gian đồng thời giảm thiểu dấu chân sinh thái.</p>
-                  <p className="text-[14px]">Đội ngũ thiết kế, chiến lược gia và chuyên gia kỹ thuật số tài năng của chúng tôi cộng tác liền mạch để cung cấp các giải pháp toàn diện phù hợp với nhu cầu riêng của bạn. Từ việc tạo các logo hấp dẫn và các trang web có hình ảnh bắt mắt cho đến quản lý các chiến dịch truyền thông xã hội hấp dẫn, chúng tôi tận dụng sức mạnh của việc kể chuyện để kết nối thương hiệu của bạn với khán giả ở mức độ sâu sắc.</p>
+                  <p className="text-[16px] font-medium">Living House được thành lập vào năm 2022. Giám Đốc điều hành là Ông Võ Văn Tiến sinh năm 1999 vào đời đi làm từ lúc 14 tuổi xuất thân từ một người lao động tay chân cho đến vị trí Giám Đốc điều hành bây giờ. Trong quá trình 10 năm Ông Võ Văn Tiến đã tham gia cá nhân đã làm cho nhiều công ty và dự án lớn ở Việt Nam. Tuy công ty mới thành lập nhưng Ông Võ Văn Tiến chắc chắn sẽ mang lại chất lượng và sự hài lòng cho từng khách hàng khi làm việc với Living House. Ngay từ những ngày đầu thành lập, Living House xác định sứ mệnh cao cả là “Kiến tạo không gian sống” cho mỗi khách hàng.  </p>
                   <p className="text-[14px]">Hãy tham gia cùng chúng tôi trong hành trình thú vị biến ý tưởng thành hiện thực phi thường. Hãy cùng nhau làm cho thương hiệu của bạn nổi bật, phát triển và chinh phục những tầm cao mới.</p>
                   <Link href="/about-us" className="underline uppercase text-[12px]">Về chúng tôi</Link>
                 </div>
@@ -126,7 +130,7 @@ export default function Home() {
             </div>
             <div className='w-full max-w-[40rem] m-auto'>
               <p className='text-[16px]'>
-                Các dự án của chúng tôi định nghĩa lại cuộc sống hiện đại thông qua thiết kế bền vững, thể hiện sự kết hợp hài hòa giữa kiến ​​trúc, sự đổi mới và trách nhiệm với môi trường.
+                Các dự án của chúng tôi định nghĩa lại cuộc sống hiện đại thông qua thiết kế bền vững, thể hiện sự kết hợp hài hòa giữa kiến ​​trúc, sự đổi mới và trách nhiệm.
               </p>
             </div>
           </div>
@@ -137,15 +141,15 @@ export default function Home() {
               <div className="home-vertical-services-grid">
                 <div className="home-vertical-services-architecture relative">
                   <div className="home-vertical-services-architecture-image-wrapper">
-                    <Image src={Image1} alt="" className="home-vertical-services-architecture-image" />
+                    <Image src={Image4} alt="" className="home-vertical-services-architecture-image" />
                   </div>
                   <div className="home-vertical-services-architecture-card">
                     <div className="margin-bottom margin-xxsmall">
-                      <h3>xxxxxxxxxx</h3>
+                      <Link href={"/projects/eastin-grand-hotel-saigon"} className="font-semibold">Eastin Grand Hotel Saigon</Link>
                     </div>
-                    <div className="text-size-small">
+                    {/* <div className="text-size-small">
                       From vision to reality, we shape innovative structures that seamlessly merge modern aesthetics with eco-friendly principles, redefining urban landscapes.
-                    </div>
+                    </div> */}
                     <div className="card-sticky-corner-top-right top hide-mobile-landscape w-embed">
                       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="white"></path>
@@ -160,12 +164,12 @@ export default function Home() {
                 </div>
                 <div className="home-vertical-services-grid-right">
                   <div className="home-vertical-services-interior">
-                    <Image src={Image1} alt="" className="home-vertical-services-interior-image" />
+                    <Image src={Image3} alt="" className="home-vertical-services-interior-image" />
                     <div className="home-vertical-services-interior-card">
                       <div className="margin-bottom margin-xxsmall">
-                        <h3 className="heading-style-h5">Interior Design</h3>
+                        <Link href={"/projects/san-khau-kich-hong-van"} className="heading-style-h5 font-semibold">Sân Khấu Kịch NSND Hồng Vân</Link>
                       </div>
-                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div>
+                      {/* <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div> */}
                       <div className="card-sticky-corner-top-left top hide-mobile-landscape w-embed">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="white"></path>
@@ -179,12 +183,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="home-vertical-services-exterior">
-                    <Image src={Image1} alt="" className="home-vertical-services-interior-image" />
+                    <Image src={Image2} alt="" className="home-vertical-services-interior-image" />
                     <div className="home-vertical-services-exterior-card">
                       <div className="margin-bottom margin-xxsmall">
-                        <h3 className="heading-style-h5">Interior Design</h3>
+                        <Link href={"/projects/the-grace-tower"} className="heading-style-h5 font-semibold">The Grace Tower</Link>
                       </div>
-                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div>
+                      {/* <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div> */}
                       <div className="card-sticky-corner-top-right top hide-mobile-landscape w-embed">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="white"></path>

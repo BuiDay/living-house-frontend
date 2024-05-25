@@ -24,7 +24,7 @@ const page = () => {
                     </div>
                     <div className='w-full max-w-[30rem] m-auto'>
                         <p className='text-[16px]'>
-                        Với sự kết hợp giữa sự sáng tạo và trách nhiệm sinh thái, chúng tôi định hình lại cuộc sống hiện đại cho một thế giới xanh hơn, đầy cảm hứng hơn.
+                        Với sự kết hợp giữa sự sáng tạo và trách nhiệm sinh thái, chúng tôi định hình lại cuộc sống hiện đại đầy cảm hứng hơn.
                         </p>
                     </div>
                 </div>
