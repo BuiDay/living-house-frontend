@@ -40,7 +40,7 @@ const page = () => {
                             </div>
                             <div className='project-vertical-preview-card'>
                                 <div className='margin-bottom margin-small'>
-                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. "The Escape" hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
+                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. &rdquo;The Escape&rdquo; hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
                                 </div>
                                 <Link href={""} className='button-icon w-full mt-4'>
                                     <div className='button-icon-inner'>
@@ -71,7 +71,7 @@ const page = () => {
                             </div>
                             <div className='project-vertical-preview-card'>
                                 <div className='margin-bottom margin-small'>
-                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. "The Escape" hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
+                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. &rdquo;The Escape&rdquo; hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
                                 </div>
                                 <Link href={""} className='button-icon w-full mt-4'>
                                     <div className='button-icon-inner'>
@@ -102,7 +102,7 @@ const page = () => {
                             </div>
                             <div className='project-vertical-preview-card'>
                                 <div className='margin-bottom margin-small'>
-                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. "The Escape" hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
+                                    <p className='text-justify'>Khám phá sự yên tĩnh được tưởng tượng lại. &rdquo;The Escape&rdquo; hài hòa giữa thiết kế hiện đại với thiên nhiên, tạo nên một nơi nghỉ dưỡng trẻ hóa và đầy cảm hứng.</p>
                                 </div>
                                 <Link href={""} className='button-icon w-full mt-4'>
                                     <div className='button-icon-inner'>

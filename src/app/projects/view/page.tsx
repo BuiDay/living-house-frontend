@@ -15,7 +15,7 @@ import Image_5 from '@/assets/images/5.jpg'
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
-const page = () => {
+const Page = () => {
 
     useGSAP(
         () => {
@@ -49,7 +49,7 @@ const page = () => {
                         <div>
                             <div className='margin-bottom margin-medium'>
                                 <div className='max-width-medium'>
-                                    Discover tranquility reimagined. "The Escape" harmonizes modern design with nature, crafting a retreat that rejuvenates and inspires.
+                                    Discover tranquility reimagined. &rdquo;The Escape&rdquo; harmonizes modern design with nature, crafting a retreat that rejuvenates and inspires.
                                 </div>
                             </div>
                         </div>
@@ -116,4 +116,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

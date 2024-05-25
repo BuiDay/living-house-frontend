@@ -165,7 +165,7 @@ export default function Home() {
                       <div className="margin-bottom margin-xxsmall">
                         <h3 className="heading-style-h5">Interior Design</h3>
                       </div>
-                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature's beauty.</div>
+                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div>
                       <div className="card-sticky-corner-top-left top hide-mobile-landscape w-embed">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="white"></path>
@@ -184,7 +184,7 @@ export default function Home() {
                       <div className="margin-bottom margin-xxsmall">
                         <h3 className="heading-style-h5">Interior Design</h3>
                       </div>
-                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature's beauty.</div>
+                      <div className="text-size-small">We create interiors that reflect your personality while embracing nature&#39;s beauty.</div>
                       <div className="card-sticky-corner-top-right top hide-mobile-landscape w-embed">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="white"></path>
