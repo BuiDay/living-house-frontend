@@ -1,0 +1,136 @@
+.projects-vertical-projects-list {
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.project-vertical-preview {
+    font-style: normal;
+    position: relative;
+    transform: translate(0);
+}
+
+.project-vertical-preview-image-wrapper {
+    height: 100%;
+    border-radius: 2.5rem 2.5rem 0;
+    position: relative;
+    overflow: hidden;
+    transform: translate(0);
+}
+
+.project-vertical-preview-content {
+    z-index: 5;
+    max-width: 70%;
+    color: #fff;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.heading-style-large {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.heading-style-large.text-style-allcaps {
+    line-height: 100%;
+}
+
+.text-style-allcaps {
+    text-transform: uppercase;
+}
+
+.image-gradient-bottom {
+    z-index: 1;
+    height: 50%;
+    opacity: .9;
+    background-image: linear-gradient(rgba(17, 17, 17, 0), #111);
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.image-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-vertical-preview-card {
+    z-index: 10;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 2.5rem 0 0;
+    padding: 2rem 1.5rem 1.5rem 2.5rem;
+    transition: background-color .5s;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.button-icon-inner {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.button-icon-badge {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-align: center;
+    background-color: #141414;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    transition: background-color .2s, border .2s;
+    display: flex;
+    overflow: hidden;
+    transform: translate(0);
+}
+
+.card-sticky-corner-top-left.bottom {
+    top: auto;
+    bottom: 0%;
+    left: -40px;
+    right: auto;
+}
+
+.card-sticky-corner-top-left {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+
+.w-embed:after {
+    clear: both;
+}
+
+.card-sticky-corner-top-left.top {
+    top: -40px;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+}
+

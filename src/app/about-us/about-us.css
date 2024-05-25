@@ -1,0 +1,31 @@
+.about-vertical-how-grid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr .6fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    display: grid;
+}
+
+.about-vertical-how-content {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2.5rem 2rem 2.5rem 4rem;
+    display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+    .about-vertical-how-grid {
+        grid-template-columns: 1fr .75fr;
+    };
+
+    .about-vertical-how-content {
+        grid-column-gap: 16rem;
+        grid-row-gap: 16rem;
+        padding: 4rem 6rem;
+    }
+}
